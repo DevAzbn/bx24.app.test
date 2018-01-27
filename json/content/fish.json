@@ -49,11 +49,11 @@
 	},
 	"path" : {
 		"root" : "",
-		"img" : "/img",
-		"css" : "/css",
-		"js" : "/js",
-		"fonts" : "/fonts",
-		"plugins" : "/plugins",
-		"favicons" : "/favicons"
+		"img" : "img",
+		"css" : "css",
+		"js" : "js",
+		"fonts" : "fonts",
+		"plugins" : "plugins",
+		"favicons" : "favicons"
 	}
 }
