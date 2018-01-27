@@ -21,7 +21,7 @@
 			console.log('Bitrix24 lib inited!', BX24.isAdmin());
 
 			BX24.callMethod('user.current', {}, function(res){
-				alert('Привет, ' + res.data().NAME + '!');
+				console.dir(res.data());
 			});
 
 		});
