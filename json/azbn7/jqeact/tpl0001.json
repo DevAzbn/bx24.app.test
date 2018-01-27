@@ -1,0 +1,42 @@
+{
+	
+	".input-block" : {
+		"tagName" : "div",
+		"attrs" : {
+			"class" : "input-block",
+			"data-required" : "text",
+			"data-input-status" : "ok"
+		},
+		"children" : [
+			{
+				"uid" : ".input-block label.input-block__label",
+				"attrs" : {
+				
+				}
+			},
+			{
+				"uid" : ".input-block input[type=text]",
+				"attrs" : {
+				
+				}
+			}
+		]
+	},
+		
+		".input-block label.input-block__label" : {
+			"tagName" : "label",
+			"attrs" : {
+				"class" : "input-block__label",
+				"html" : "Это label"
+			}
+		},
+		
+		".input-block input[type=text]" : {
+			"tagName" : "input",
+			"attrs" : {
+				"name" : "f[Контакт]",
+				"value" : "Имя"
+			}
+		}
+	
+}
