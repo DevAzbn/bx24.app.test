@@ -14,6 +14,19 @@
 	$(function() {
 		
 		/*
+		Инициализация библиотеки битрикса
+		*/
+		BX24.init(function(){
+			
+			console.log('Bitrix24 lib inited!', BX24.isAdmin());
+
+			BX24.callMethod('user.current', {}, function(res){
+				alert('Привет, ' + res.data().NAME + '!');
+			});
+
+		});
+
+		/*
 		Создание триггеров на элементы, в основном, на body
 		*/
 		[[azbntple tpl="/src/_/concat.body.on.js" ]]
